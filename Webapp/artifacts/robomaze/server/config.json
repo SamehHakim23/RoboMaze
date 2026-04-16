@@ -1,0 +1,28 @@
+{
+  "motor": {
+    "baseSpeed": 170,
+    "turnSpeed": 130
+  },
+  "sensor": {
+    "threshold": 500
+  },
+  "communication": {
+    "wifiIp": "172.20.10.9",
+    "pollingInterval": 100,
+    "reconnectPolicy": "auto",
+    "bleEnabled": false,
+    "preferredMode": "wifi"
+  },
+  "advanced": {
+    "settleTime": 600,
+    "junctionCreep": 275,
+    "forcedTurn": 310,
+    "searchTimeout": 1700,
+    "peekCreep": 150,
+    "goalCreep": 150,
+    "corrT1": 50,
+    "corrT2": 55,
+    "corrT3": 60,
+    "corrT4": 65
+  }
+}

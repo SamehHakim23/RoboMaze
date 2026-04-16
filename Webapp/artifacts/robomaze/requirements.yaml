@@ -1,0 +1,12 @@
+packages:
+  "zustand": "Global state management for pure frontend application"
+  "framer-motion": "Animations and transitions for retro UI elements"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to safely merge tailwind classes"
+
+images: []
+
+notes:
+  - Application is pure frontend, relying on simulated mock data or Web API connections to hardware.
+  - Zustand is used to manage the global state instead of a backend database.
+  - Canvas API will be used directly in the MazeViz page for high-performance pixel rendering.

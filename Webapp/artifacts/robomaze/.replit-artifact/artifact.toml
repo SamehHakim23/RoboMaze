@@ -1,0 +1,26 @@
+kind = "web"
+previewPath = "/"
+title = "RoboMaze Pixel Control Center"
+version = "1.0.0"
+id = "artifacts/robomaze"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+localPort = 23931
+name = "web"
+paths = ["/"]
+
+[services.development]
+run = "pnpm --filter @workspace/robomaze run dev"
+
+[services.env]
+PORT = "23931"
+BASE_PATH = "/"
+
+[services.production]
+build = ["sh", "-c", "cd artifacts/robomaze && pnpm run build && pnpm run build:server"]
+run = "cd artifacts/robomaze && NODE_ENV=production node dist/server/index.js"
