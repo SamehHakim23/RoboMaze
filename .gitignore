@@ -3,3 +3,6 @@ dist/
 .env
 .pio/
 .DS_Store
+*.log
+.cache/
+build/
