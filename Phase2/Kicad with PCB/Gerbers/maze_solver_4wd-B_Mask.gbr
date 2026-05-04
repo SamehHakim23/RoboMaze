@@ -1,0 +1,35 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.1*%
+%TF.CreationDate,2026-05-05T02:11:59+03:00*%
+%TF.ProjectId,maze_solver_4wd,6d617a65-5f73-46f6-9c76-65725f347764,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.1) date 2026-05-05 02:11:59*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,6.400000*%
+%ADD11C,0.900000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,MH4*%
+X192000000Y-138500000D03*
+%TD*%
+%TO.C,MH3*%
+X132000000Y-139000000D03*
+%TD*%
+%TO.C,MH2*%
+X188500000Y-58000000D03*
+%TD*%
+%TO.C,MH1*%
+X133000000Y-59000000D03*
+%TD*%
+D11*
+%TO.C,SW1*%
+X111000000Y-124500000D03*
+X114000000Y-124500000D03*
+%TD*%
+M02*
